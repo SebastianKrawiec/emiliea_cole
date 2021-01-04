@@ -1,0 +1,362 @@
+*,*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Raleway","Work Sans","Open Sans", sans-serif;
+    scroll-behavior: smooth;
+    @media screen (min-width: 50em){
+        font-size: 50%;
+    }
+}
+
+/* 
+
+///////////////// LINK
+
+*/
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+/* 
+
+///////////////// TYPO
+
+*/
+
+.title{
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: .5rem;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+/* 
+
+///////////////// INDEX
+
+*/
+
+
+.index__header{
+    width:20vw;
+    margin-left: 3rem;
+}
+
+
+.header__nav-bar{
+    margin-top: 2rem;
+}
+
+.header__list,
+.header__icons{
+    list-style: none;
+}
+
+.header__icons{
+    margin-top: 1.5rem;
+}
+
+.icon{
+    display: inline-block;
+    fill: black;
+}
+
+.icon:not(:last-child){
+    margin-right: -1.3rem;
+}
+
+.index__item:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+
+.index__body{
+    background-image: url(../img/emilia-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: 100% 40%;
+}
+
+.title--index{
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: raleway;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5rem;
+    line-height: 1;
+    margin-top: 5rem;
+}
+
+.index__main-text{
+    margin-top: 15rem;
+    margin-right: .5rem;
+    background-color: rgba(245, 245, 245, 0.459);
+    padding-left: 1.5rem;
+    font-size: 7rem;
+    font-family: raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* 
+
+///////////////// BTN
+
+*/
+
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.btn
+{
+    color:black;
+}
+
+.btn--icon{
+    padding: 0;
+}
+
+.btn--content{
+    padding: 0;
+    margin-left: -1rem;
+    color: rgb(94, 93, 93);
+}
+
+/* 
+
+///////////////// ABOUT - MUSIC
+
+*/
+
+.about__body{
+    background-image: url(../img/emilia-about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: 100% 0%;
+
+}
+
+
+.about__list,
+.music__list{
+    background-color: rgba(245, 245, 245, 0.459);
+    padding: 1.5rem .5rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+}
+
+.music__list{
+    margin-left: 1.5rem;
+}
+
+.about__icons,
+.music__icons{
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.icon{
+    display: inline-block;
+}
+
+
+.item{
+    border-left: .1rem solid black;
+    display: inline-block;
+    
+}
+.item:last-child{
+    border-right: .1rem solid black;
+}
+
+.about__header,
+.music__header{
+    text-align: right;
+
+}
+
+.title--about{
+    font-size: 7rem;
+    margin-left: 1rem;
+}
+
+
+.about__text{
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.text-cuote{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-autor{
+    font-size: 1rem;
+}
+
+.text-up,
+.text-down{
+    width: 35vw;
+    color: rgb(45, 168, 121);
+}
+
+.text-down{
+    margin-top: 4rem;
+}
+
+
+/* 
+
+///////////////// MUSIC
+
+*/
+
+.music__header{
+    background-image: url(../img/emilia-music-top.jpg);
+    padding: 4rem 0;
+    margin-top: -4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.music__container{
+    margin-left: 1rem;
+}
+
+.music__container:not(:last-child){
+    margin-bottom: 4rem;
+}
+
+.music__img{
+    height: 36rem;
+    width: 64rem;
+}
+
+.music__container-list,
+.music__container-list--video{
+    list-style: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.music__container-list--video{
+    margin-left: 2rem;  
+}
+
+ 
+.sub-title{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    font-size: 1rem;
+    color: rgb(94, 93, 93);
+  
+}
+
+.music__subtitle--content{
+ /*    font-family: raleway; */
+    font-weight: 700;
+    font-size: 2.1rem;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.music__links{
+    list-style: none;
+    color: rgb(119, 119, 119);
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.links-item{
+    text-transform: capitalize;
+}
+
+.links-item:not(:last-child){
+    margin-bottom: .3rem;
+}
+
+.links-item--content{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.links-item--video:not(:last-child){
+    margin-bottom: 1.2rem;
+}
+
+.iframe{
+    width: 80rem;
+    height: 36rem;
+}
+
+/* 
+
+///////////////// CONTACT
+
+*/
+
+.contact__map{
+    margin-bottom: 6rem;
+}
+
+.subtitle--contact{
+    display: block;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.contact__main{
+    padding: 0 .5rem;
+}
+
+.item--contact{
+    border-left: none;
+    display: block;
+}
+
+.item--contact:nth-child(3n){
+    margin-bottom: 4rem;
+}
+
+.subtitle--contact-info{
+    margin-top: 0;
+    font-size: 2rem;
+    color:rgb(45, 168, 121);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.contact--span{
+    text-transform: uppercase;
+}
+
+.link--contact{
+    font-size: 1.5rem;
+}
+
+.contact-link--span{
+    font-weight: bold;
+}
